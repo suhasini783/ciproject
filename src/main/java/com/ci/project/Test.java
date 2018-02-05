@@ -3,7 +3,7 @@ package com.ci.project;
 public class Test {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Sir!");
+		System.out.println("Hello World!");
 	}
 
 }
