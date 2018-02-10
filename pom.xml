@@ -10,4 +10,16 @@
     <maven.compiler.target>1.6</maven.compiler.target>
   </properties>
   
+  <distributionManagement>
+  <snapshotRepository>
+    <id>maven-snapshots</id>
+        <name>SNAPSHOT</name>
+    <url>http://ec2-52-23-211-163.compute-1.amazonaws.com:8081/#browse/browse/components:maven-snapshots/</url>
+  </snapshotRepository>
+    <repository>
+    <id>maven-releases</id>
+    <url>http://ec2-52-23-211-163.compute-1.amazonaws.com:8081/#browse/browse/components:maven-releases/</url>
+   </repository>
+   </distributionManagement>
+  
 </project>
